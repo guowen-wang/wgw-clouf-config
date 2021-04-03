@@ -1,18 +1,18 @@
 spring:
-    profiles:
-        active: dev
+  profiles:
+    active: dev
 
 ---
 server: 
-    port: 4001
+  port: 4001
 spring: 
-    profiles: dev
-    application: 
-        name: microservice-config-dev
+  profiles: dev
+  application: 
+    name: microservice-config-dev
 ---
 server: 
-    port: 4002
+  port: 4002
 spring: 
-    profiles: prod
-    application: 
-        name: microservice-config-prod
+  profiles: prod
+  application: 
+    name: microservice-config-prod
